@@ -1,0 +1,195 @@
+{"intents":[
+  { "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi", "tudo bem","como vai"],
+    "responses": ["Oi","Olá"]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","fui","beleza"],
+    "responses": ["Até breve","Falou"]
+  },
+  { "tag": "data_prova",
+    "patterns":["Quando sera a prova?","A prova será em que dia?","vai ter exame?"],
+    "responses": ["no dia 26"]
+  },
+  { "tag": "programa_pipe",
+    "patterns":["O que é programa PIPE?","Programa PIPE"],
+    "responses": ["O Programa Pesquisa Inovativa em Pequenas Empresas da FAPESP destina-se a apoiar a execução de pesquisa científica e tecnológica em pequenas empresas no Estado de São Paulo. Seus objetivos são apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica e o desenvolvimento empresarial, aumentar a competitividade das pequenas empresas, possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica e contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas empresas e para o emprego de pesquisadores no mercado de trabalho empresarial criando uma cultura permanente de inovação."]
+  },
+  { "tag": "etapas_pipe",
+    "patterns":["Quais são as etapas do PIPE?","Programa PIPE Etapas","Fases programa pipe"],
+    "responses": ["a) Fase 1: é destinada à verificação da viabilidade técnico-científica da proposta, (duração de até 9 meses e orçamento de até R$ 300.000, mais Reserva Técnica e Benefícios Complementares); \n b) Fase 2: destina-se à execução da pesquisa propriamente dita (duração de até 24 meses e orçamento de até R$ 1.500.000, mais Reserva Técnica e Benefícios Complementares); \n c) PIPE Invest: Aceleração da chegada ao mercado de Projetos da Fase 2, quando houver terceira parte interessada (duração de até 24 meses e orçamento de até R$ 1.500.000); e \n d) Fase 3: desenvolvimento comercial e industrial dos produtos, processos, sistemas e/ou serviços inovadores obtidos a partir de pesquisas anteriores realizadas pela pequena empresa sem o apoio da FAPESP ou a partir de pesquisa apoiada no âmbito do PIPE."]
+  },
+  { "tag": "fase1_obrigatória",
+    "patterns":["A fase 1 é obrigatória?","Posso pular para a fase 2 do pipe?", "obrigatoriedade fase 1", "pular para a fase 2"],
+    "responses": ["A empresa pode submeter uma proposta à Fase 2 Direta. Nesse caso é fundamental demonstrar que a viabilidade técnica da pesquisa já foi demonstrada; para tanto é fundamental apresentar um ótimo documento de “Justificativa para a Fase 2 Direta“."]
+  },
+  { "tag": "projeto_pesquisa_na_empresa",
+    "patterns":["O projeto de pesqusia tem que ser feito na empresa?","Critérios de pesquisa em empresas"],
+    "responses": ["Sim, obrigatoriamente. O PIPE destina-se a apoiar a execução de pesquisa EM pequenas empresas sediadas no Estado de São Paulo, conforme está explicitado nas normas do programa: http://fapesp.br/pipe/normas/#1."]
+  },
+  { "tag": "empresa_nao_constituida",
+  "patterns":["Minha empresa precisa estar aberta?","Preciso já ter a empresa para solicitar o PIPE?","Minha empresa precisa estar aberta para solicitar o PIPE?"],
+  "responses": ["Não. A FAPESP analisa propostas de empresas ainda não constituídas. Empresas startup ainda não constituídas legalmente são incentivadas a submeter. Nos casos em que a proposta for recomendada, o proponente deverá então abrir formalmente a empresa antes da concessão da proposta."]
+  },
+  { "tag": "criterio_empresa_pipe",
+  "patterns":["O que é uma empresa para o PIPE?","O que é considerado uma empresa para o PIPE?", "Critério de empresa no PIP"],
+  "responses": ["É uma empresa com até 250 funcionários, independentemente do seu faturamento. A FAPESP considera empresa as sociedades empresárias previstas no Código Civil, o empresário individual, o microempreendedor individual (MEI), a sociedade limitada unipessoal e as sociedades simples. Associações, fundações, institutos e cooperativas não podem sediar um PIPE da FAPESP."]
+  },
+  { "tag": "quando_submeter_proposta",
+  "patterns":["Quando posso submeter uma proposta PIPE?","Qual o prazo para fazer prosposta ao PIPE"],
+  "responses": ["As propostas para o PIPE Fase 1, Fase 2 e PIPE Invest são recebidas em fluxo contínuo durante todo o ano."]
+  },
+  { "tag": "areas_prioritarias",
+  "patterns":["Existem áreas prioritarias no PIPE?","Quem tem prioridade no PIPE"],
+  "responses": ["Não. O PIPE visa a apoiar pesquisas promissoras, com potencial de inovação, em qualquer área do conhecimento."]
+  },
+  { "tag": "produto_desenvolvido",
+  "patterns":["Produtos entram no PIPE?","Posso entrar com um produto no PIPE?"],
+  "responses": ["Não. O objetivo do PIPE é apoiar projetos de pesquisa para inovação, oferecendo recursos para custear a pesquisa visando ao desenvolvimento de um produto, processo ou serviço inovador. Se o produto já foi desenvolvido, as Fases 1 e 2 do PIPE não são necessárias para financiar pesquisa para se chegar a ele. Nesse caso, a proposta pode ser elegível para outros programas de subvenção econômica, no PIPE Fase 3, financiados em parceria com terceiros."]
+  },
+  { "tag": "titulo_doutor",
+  "patterns":["É preciso ter título de doutor para solicitar o PIPE?","É necessário titulação academica?"],
+  "responses": ["Não. No programa PIPE é fundamental a experiência demonstrada pelo proponente no tema do projeto e a competência demonstrada para a liderança da pesquisa proposta. Embora a titulação acadêmica seja bem-vinda, ela não é de forma nenhuma exigida dos pesquisadores do PIPE."]
+  },
+  {
+      "tag": "bolsa_treinamento_tecnico",
+      "patterns": [
+        "O que são as bolsas de Treinamento Técnico?",
+        "Qual é o objetivo das bolsas de Treinamento Técnico?",
+        "Quem pode receber uma bolsa de Treinamento Técnico?",
+        "O que é preciso para solicitar uma bolsa de Treinamento Técnico?",
+        "Onde encontro informações sobre o plano de trabalho da bolsa de Treinamento Técnico?",
+        "As bolsas de Treinamento Técnico preparam os bolsistas para trabalhar na empresa?",
+        "É obrigatório ter um plano de trabalho para a bolsa de Treinamento Técnico?"
+      ],
+      "responses": [
+        "São bolsas de Treinamento Técnico que têm por objetivo treinar e aperfeiçoar alunos de cursos técnicos, de nível médio e superior, e recém-formados.",
+        "O objetivo é preparar os bolsistas para sua futura incorporação à equipe de P&D da empresa.",
+        "Alunos de cursos técnicos, de nível médio e superior, e recém-formados podem ser beneficiados.",
+        "Para cada bolsa solicitada, é fundamental apresentar um plano de trabalho individual, conforme descrito em fapesp.br/tt.",
+        "Mais informações sobre o plano de trabalho podem ser encontradas no site fapesp.br/tt.",
+        "Sim, as bolsas visam à futura incorporação dos bolsistas à equipe de P&D da empresa.",
+        "Sim, é obrigatório apresentar um plano de trabalho individual para cada bolsa de Treinamento Técnico solicitada."
+      ]
+  },{
+    "tag": "pipe_equipe",
+    "patterns": [
+      "O que é importante no PIPE em relação à experiência?",
+      "Precisa ter só gente da empresa no PIPE?",
+      "A equipe do PIPE precisa cobrir todas as áreas do projeto?"
+    ],
+    "responses": [
+      "No PIPE, é essencial demonstrar experiência na área do projeto e incluir na equipe profissionais de todas as áreas relevantes. Especialistas de universidades e consultores podem ser integrados, mesmo sem vínculo direto com a empresa. Projetos específicos, como software para saúde ou eletrônica na agricultura, exigem especialistas nas respectivas áreas."
+    ]
+},
+{
+    "tag": "dedicacao_projeto",
+    "patterns": [
+      "Qual é a dedicação mínima se o pesquisador for pago pela empresa e não receber bolsa da FAPESP?",
+      "O que acontece se a empresa não puder pagar o salário do pesquisador principal?",
+      "Quantas horas são necessárias se o pesquisador solicitar Bolsa PE?",
+      "A FAPESP pode conceder Bolsa PE se a empresa não puder pagar?",
+      "O pesquisador precisa cumprir 24 horas se for pago pela empresa?",
+      "Em que casos a FAPESP analisa a solicitação de Bolsa PE?"
+    ],
+    "responses": [
+      "Se o pesquisador principal for pago pela empresa e não receber bolsa da FAPESP, deve dedicar 24 horas semanais ao projeto. Caso a empresa não possa pagar, a FAPESP pode analisar a solicitação de uma Bolsa PE, que exige 40 horas semanais de dedicação."
+    ]
+}, 
+{
+    "tag": "elegibilidade_pipe",
+    "patterns": [
+      "O pesquisador responsável precisa morar em São Paulo para o PIPE?",
+      "Precisa ter unidade de pesquisa em São Paulo para o PIPE?",
+      "Pesquisadores de outros estados podem participar do PIPE?",
+      "O projeto precisa ser submetido em nome da empresa se ela estiver fora de SP?"
+    ],
+    "responses": [
+      "O Pesquisador Responsável deve residir em São Paulo para ser elegível ao PIPE. Empresas fora de SP devem submeter o projeto em seu nome, e é obrigatória uma unidade de pesquisa em SP. Pesquisadores de outros estados que instalarem empresas em SP e se tornarem residentes também são elegíveis."
+    ]
+},
+{
+    "tag": "dedicacao_coordenador_pipe",
+    "patterns": [
+      "Qual é a dedicação mínima exigida do coordenador no PIPE?",
+      "Professores em RDIDP e RTC podem coordenar um projeto PIPE?",
+      "Professores em RTP podem coordenar um projeto PIPE?",
+      "O coordenador do PIPE pode pedir uma bolsa PE?",
+      "Por que professores em RDIDP e RTC não podem submeter projetos PIPE?",
+      "Qual é a condição para professores coordenarem um projeto PIPE?"
+    ],
+    "responses": [
+      "O PIPE exige 24 horas semanais de dedicação do coordenador ao projeto na empresa. Professores que não podem cumprir essa carga horária, como docentes em RDIDP e RTC, não podem submeter projetos. Docentes em RTP e outros que atendam à dedicação mínima podem coordenar, mas não podem solicitar bolsa PE."    
+    ]
+},
+{
+    "tag": "apoio_pesquisa",
+    "patterns": [
+      "Precisa ter projeto de pesquisa em uma universidade para receber apoio do PIPE?",
+      "O PIPE apoia pesquisa na empresa ou na universidade?"
+    ],
+    "responses": [
+      "Não há absolutamente nenhuma exigência de relação com qualquer instituição acadêmica. Embora relações entre a empresa e universidades sejam salutares, o PIPE é um programa para apoiar a pesquisa na empresa, não na universidade."
+    ]
+},
+{
+    "tag": "desenvolvimento_pesquisa",
+    "patterns": [
+      "Posso desenvolver a pesquisa na universidade",
+      "O PIPE apoia pesquisa na empresa ou na universidade?"
+    ],
+    "responses": [
+      "Não. A pesquisa deve ser desenvolvida na empresa. Eventualmente, algumas atividades específicas da pesquisa podem ser sub-contratadas de laboratórios de universidades ou de consultores acadêmicos desde que muito bem justificadas e não se constituam na parte central da pesquisa."
+    ]
+},
+{
+    "tag": "quantidade_bolsa_pipe",
+    "patterns": [
+      "Quantas bolsas posso solicitar em pequena empresa?",
+      "Posso solicitar mais de uma bolsa em pequena empresa?"
+    ],
+    "responses": [
+      "Empresas com pouco faturamento podem solicitar uma bolsa PE por projeto, com possibilidade de uma segunda bolsa em casos excepcionais e bem justificados, exigindo dois planos de atividades. Empresas com grande faturamento devem arcar com o pagamento do pesquisador principal."
+    ]
+},
+{
+    "tag": "bolsa_treinamento_tecnico",
+    "patterns": [
+      "O que são as bolsas de Treinamento Técnico?",
+      "Qual é o objetivo das bolsas de Treinamento Técnico?",
+      "O que é preciso para solicitar uma bolsa de Treinamento Técnico?",
+      "Onde encontro informações sobre o plano de trabalho da bolsa de Treinamento Técnico?",
+      "É obrigatório ter um plano de trabalho para a bolsa de Treinamento Técnico?"
+    ],
+    "responses": [
+      "As bolsas de Treinamento Técnico visam treinar e aperfeiçoar alunos de cursos técnicos, médios, superiores e recém-formados para futura integração na equipe de P&D da empresa. É necessário apresentar um plano de trabalho individual, conforme descrito em fapesp.br/tt."
+    ]
+},
+{
+    "tag": "bolsa_treinamento_tecnico_especializado",
+    "patterns": [
+      "O que são as bolsas de Treinamento Técnico?",
+      "Quem pode receber uma bolsa de Treinamento Técnico?",
+      "Qual é o objetivo das bolsas de Treinamento Técnico?",
+      "O que é preciso para solicitar uma bolsa de Treinamento Técnico?",
+      "Onde encontro informações sobre o plano de trabalho da bolsa de Treinamento Técnico?"
+    ],
+    "responses": [
+      "As bolsas de Treinamento Técnico são voltadas a profissionais altamente especializados para atividades técnicas complexas em projetos de pesquisa. É necessário apresentar um plano de trabalho de 2 páginas detalhando as tarefas, conforme descrito em fapesp.br/tt. O tempo de experiência do candidato é contabilizado após a graduação."
+    ]
+},
+{
+    "tag": "beneficios_complementares_pipe",
+    "patterns": [
+      "O que são os Benefícios Complementares (BC) no PIPE?",
+      "Qual é o valor dos Benefícios Complementares (BC) por ano?",
+      "Para que servem os Benefícios Complementares (BC)?",
+      "Os Benefícios Complementares podem ser usados para pesquisa de campo?",
+      "O que é preciso para justificar recursos adicionais no projeto?"
+    ],
+    "responses": [
+      "Propostas aprovadas recebem Benefícios Complementares (BC) de R$ 16.000,00/ano para despesas como reuniões científicas e estágios de pesquisa fora de SP. Recursos adicionais podem ser concedidos para pesquisa de campo, se justificados, mas não cobrem reuniões comerciais, marketing ou pesquisa de mercado."
+    ]
+}
+]
+}
