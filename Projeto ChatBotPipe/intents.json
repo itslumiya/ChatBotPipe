@@ -1,57 +1,150 @@
-{"intents":[
-  { "tag": "saudacao",
-    "patterns":["Ola","Opa","Oi", "tudo bem","como vai"],
-    "responses": ["Oi","Olá"]
-  },
-  { "tag": "despedida",
-    "patterns":["valeu","tchau","Obrigado","fui","beleza"],
-    "responses": ["Até breve","Falou"]
-  },
-  { "tag": "data_prova",
-    "patterns":["Quando sera a prova?","A prova será em que dia?","vai ter exame?"],
-    "responses": ["no dia 26"]
-  },
-  { "tag": "programa_pipe",
-    "patterns":["O que é programa PIPE?","Programa PIPE"],
-    "responses": ["O Programa Pesquisa Inovativa em Pequenas Empresas da FAPESP destina-se a apoiar a execução de pesquisa científica e tecnológica em pequenas empresas no Estado de São Paulo. Seus objetivos são apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica e o desenvolvimento empresarial, aumentar a competitividade das pequenas empresas, possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica e contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas empresas e para o emprego de pesquisadores no mercado de trabalho empresarial criando uma cultura permanente de inovação."]
-  },
-  { "tag": "etapas_pipe",
-    "patterns":["Quais são as etapas do PIPE?","Programa PIPE Etapas","Fases programa pipe"],
-    "responses": ["a) Fase 1: é destinada à verificação da viabilidade técnico-científica da proposta, (duração de até 9 meses e orçamento de até R$ 300.000, mais Reserva Técnica e Benefícios Complementares); \n b) Fase 2: destina-se à execução da pesquisa propriamente dita (duração de até 24 meses e orçamento de até R$ 1.500.000, mais Reserva Técnica e Benefícios Complementares); \n c) PIPE Invest: Aceleração da chegada ao mercado de Projetos da Fase 2, quando houver terceira parte interessada (duração de até 24 meses e orçamento de até R$ 1.500.000); e \n d) Fase 3: desenvolvimento comercial e industrial dos produtos, processos, sistemas e/ou serviços inovadores obtidos a partir de pesquisas anteriores realizadas pela pequena empresa sem o apoio da FAPESP ou a partir de pesquisa apoiada no âmbito do PIPE."]
-  },
-  { "tag": "fase1_obrigatória",
-    "patterns":["A fase 1 é obrigatória?","Posso pular para a fase 2 do pipe?", "obrigatoriedade fase 1", "pular para a fase 2"],
-    "responses": ["A empresa pode submeter uma proposta à Fase 2 Direta. Nesse caso é fundamental demonstrar que a viabilidade técnica da pesquisa já foi demonstrada; para tanto é fundamental apresentar um ótimo documento de “Justificativa para a Fase 2 Direta“."]
-  },
-  { "tag": "projeto_pesquisa_na_empresa",
-    "patterns":["O projeto de pesqusia tem que ser feito na empresa?","Critérios de pesquisa em empresas"],
-    "responses": ["Sim, obrigatoriamente. O PIPE destina-se a apoiar a execução de pesquisa EM pequenas empresas sediadas no Estado de São Paulo, conforme está explicitado nas normas do programa: http://fapesp.br/pipe/normas/#1."]
-  },
-  { "tag": "empresa_nao_constituida",
-  "patterns":["Minha empresa precisa estar aberta?","Preciso já ter a empresa para solicitar o PIPE?","Minha empresa precisa estar aberta para solicitar o PIPE?"],
-  "responses": ["Não. A FAPESP analisa propostas de empresas ainda não constituídas. Empresas startup ainda não constituídas legalmente são incentivadas a submeter. Nos casos em que a proposta for recomendada, o proponente deverá então abrir formalmente a empresa antes da concessão da proposta."]
-  },
-  { "tag": "criterio_empresa_pipe",
-  "patterns":["O que é uma empresa para o PIPE?","O que é considerado uma empresa para o PIPE?", "Critério de empresa no PIP"],
-  "responses": ["É uma empresa com até 250 funcionários, independentemente do seu faturamento. A FAPESP considera empresa as sociedades empresárias previstas no Código Civil, o empresário individual, o microempreendedor individual (MEI), a sociedade limitada unipessoal e as sociedades simples. Associações, fundações, institutos e cooperativas não podem sediar um PIPE da FAPESP."]
-  },
-  { "tag": "quando_submeter_proposta",
-  "patterns":["Quando posso submeter uma proposta PIPE?","Qual o prazo para fazer prosposta ao PIPE"],
-  "responses": ["As propostas para o PIPE Fase 1, Fase 2 e PIPE Invest são recebidas em fluxo contínuo durante todo o ano."]
-  },
-  { "tag": "areas_prioritarias",
-  "patterns":["Existem áreas prioritarias no PIPE?","Quem tem prioridade no PIPE"],
-  "responses": ["Não. O PIPE visa a apoiar pesquisas promissoras, com potencial de inovação, em qualquer área do conhecimento."]
-  },
-  { "tag": "produto_desenvolvido",
-  "patterns":["Produtos entram no PIPE?","Posso entrar com um produto no PIPE?"],
-  "responses": ["Não. O objetivo do PIPE é apoiar projetos de pesquisa para inovação, oferecendo recursos para custear a pesquisa visando ao desenvolvimento de um produto, processo ou serviço inovador. Se o produto já foi desenvolvido, as Fases 1 e 2 do PIPE não são necessárias para financiar pesquisa para se chegar a ele. Nesse caso, a proposta pode ser elegível para outros programas de subvenção econômica, no PIPE Fase 3, financiados em parceria com terceiros."]
-  },
-  { "tag": "titulo_doutor",
-  "patterns":["É preciso ter título de doutor para solicitar o PIPE?","É necessário titulação academica?"],
-  "responses": ["Não. No programa PIPE é fundamental a experiência demonstrada pelo proponente no tema do projeto e a competência demonstrada para a liderança da pesquisa proposta. Embora a titulação acadêmica seja bem-vinda, ela não é de forma nenhuma exigida dos pesquisadores do PIPE."]
-  },
-  {
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": [
+        "Ola",
+        "Opa",
+        "Oi",
+        "tudo bem",
+        "como vai"
+      ],
+      "responses": [
+        "Oi",
+        "Olá"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "valeu",
+        "tchau",
+        "Obrigado",
+        "fui",
+        "beleza"
+      ],
+      "responses": [
+        "Até breve",
+        "Falou"
+      ]
+    },
+    {
+      "tag": "data_prova",
+      "patterns": [
+        "Quando sera a prova?",
+        "A prova será em que dia?",
+        "vai ter exame?"
+      ],
+      "responses": [
+        "no dia 26"
+      ]
+    },
+    {
+      "tag": "programa_pipe",
+      "patterns": [
+        "O que é programa PIPE?",
+        "Programa PIPE"
+      ],
+      "responses": [
+        "O Programa Pesquisa Inovativa em Pequenas Empresas da FAPESP destina-se a apoiar a execução de pesquisa científica e tecnológica em pequenas empresas no Estado de São Paulo. Seus objetivos são apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica e o desenvolvimento empresarial, aumentar a competitividade das pequenas empresas, possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica e contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas empresas e para o emprego de pesquisadores no mercado de trabalho empresarial criando uma cultura permanente de inovação."
+      ]
+    },
+    {
+      "tag": "etapas_pipe",
+      "patterns": [
+        "Quais são as etapas do PIPE?",
+        "Programa PIPE Etapas",
+        "Fases programa pipe"
+      ],
+      "responses": [
+        "a) Fase 1: é destinada à verificação da viabilidade técnico-científica da proposta, (duração de até 9 meses e orçamento de até R$ 300.000, mais Reserva Técnica e Benefícios Complementares); \n b) Fase 2: destina-se à execução da pesquisa propriamente dita (duração de até 24 meses e orçamento de até R$ 1.500.000, mais Reserva Técnica e Benefícios Complementares); \n c) PIPE Invest: Aceleração da chegada ao mercado de Projetos da Fase 2, quando houver terceira parte interessada (duração de até 24 meses e orçamento de até R$ 1.500.000); e \n d) Fase 3: desenvolvimento comercial e industrial dos produtos, processos, sistemas e/ou serviços inovadores obtidos a partir de pesquisas anteriores realizadas pela pequena empresa sem o apoio da FAPESP ou a partir de pesquisa apoiada no âmbito do PIPE."
+      ]
+    },
+    {
+      "tag": "fase1_obrigatória",
+      "patterns": [
+        "A fase 1 é obrigatória?",
+        "Posso pular para a fase 2 do pipe?",
+        "obrigatoriedade fase 1",
+        "pular para a fase 2"
+      ],
+      "responses": [
+        "A empresa pode submeter uma proposta à Fase 2 Direta. Nesse caso é fundamental demonstrar que a viabilidade técnica da pesquisa já foi demonstrada; para tanto é fundamental apresentar um ótimo documento de “Justificativa para a Fase 2 Direta“."
+      ]
+    },
+    {
+      "tag": "projeto_pesquisa_na_empresa",
+      "patterns": [
+        "O projeto de pesqusia tem que ser feito na empresa?",
+        "Critérios de pesquisa em empresas"
+      ],
+      "responses": [
+        "Sim, obrigatoriamente. O PIPE destina-se a apoiar a execução de pesquisa EM pequenas empresas sediadas no Estado de São Paulo, conforme está explicitado nas normas do programa: http://fapesp.br/pipe/normas/#1."
+      ]
+    },
+    {
+      "tag": "empresa_nao_constituida",
+      "patterns": [
+        "Minha empresa precisa estar aberta?",
+        "Preciso já ter a empresa para solicitar o PIPE?",
+        "Minha empresa precisa estar aberta para solicitar o PIPE?"
+      ],
+      "responses": [
+        "Não. A FAPESP analisa propostas de empresas ainda não constituídas. Empresas startup ainda não constituídas legalmente são incentivadas a submeter. Nos casos em que a proposta for recomendada, o proponente deverá então abrir formalmente a empresa antes da concessão da proposta."
+      ]
+    },
+    {
+      "tag": "criterio_empresa_pipe",
+      "patterns": [
+        "O que é uma empresa para o PIPE?",
+        "O que é considerado uma empresa para o PIPE?",
+        "Critério de empresa no PIP"
+      ],
+      "responses": [
+        "É uma empresa com até 250 funcionários, independentemente do seu faturamento. A FAPESP considera empresa as sociedades empresárias previstas no Código Civil, o empresário individual, o microempreendedor individual (MEI), a sociedade limitada unipessoal e as sociedades simples. Associações, fundações, institutos e cooperativas não podem sediar um PIPE da FAPESP."
+      ]
+    },
+    {
+      "tag": "quando_submeter_proposta",
+      "patterns": [
+        "Quando posso submeter uma proposta PIPE?",
+        "Qual o prazo para fazer prosposta ao PIPE"
+      ],
+      "responses": [
+        "As propostas para o PIPE Fase 1, Fase 2 e PIPE Invest são recebidas em fluxo contínuo durante todo o ano."
+      ]
+    },
+    {
+      "tag": "areas_prioritarias",
+      "patterns": [
+        "Existem áreas prioritarias no PIPE?",
+        "Quem tem prioridade no PIPE"
+      ],
+      "responses": [
+        "Não. O PIPE visa a apoiar pesquisas promissoras, com potencial de inovação, em qualquer área do conhecimento."
+      ]
+    },
+    {
+      "tag": "produto_desenvolvido",
+      "patterns": [
+        "Produtos entram no PIPE?",
+        "Posso entrar com um produto no PIPE?"
+      ],
+      "responses": [
+        "Não. O objetivo do PIPE é apoiar projetos de pesquisa para inovação, oferecendo recursos para custear a pesquisa visando ao desenvolvimento de um produto, processo ou serviço inovador. Se o produto já foi desenvolvido, as Fases 1 e 2 do PIPE não são necessárias para financiar pesquisa para se chegar a ele. Nesse caso, a proposta pode ser elegível para outros programas de subvenção econômica, no PIPE Fase 3, financiados em parceria com terceiros."
+      ]
+    },
+    {
+      "tag": "titulo_doutor",
+      "patterns": [
+        "É preciso ter título de doutor para solicitar o PIPE?",
+        "É necessário titulação academica?"
+      ],
+      "responses": [
+        "Não. No programa PIPE é fundamental a experiência demonstrada pelo proponente no tema do projeto e a competência demonstrada para a liderança da pesquisa proposta. Embora a titulação acadêmica seja bem-vinda, ela não é de forma nenhuma exigida dos pesquisadores do PIPE."
+      ]
+    },
+    {
       "tag": "bolsa_treinamento_tecnico",
       "patterns": [
         "O que são as bolsas de Treinamento Técnico?",
@@ -71,125 +164,341 @@
         "Sim, as bolsas visam à futura incorporação dos bolsistas à equipe de P&D da empresa.",
         "Sim, é obrigatório apresentar um plano de trabalho individual para cada bolsa de Treinamento Técnico solicitada."
       ]
-  },{
-    "tag": "pipe_equipe",
-    "patterns": [
-      "O que é importante no PIPE em relação à experiência?",
-      "Precisa ter só gente da empresa no PIPE?",
-      "A equipe do PIPE precisa cobrir todas as áreas do projeto?"
-    ],
-    "responses": [
-      "No PIPE, é essencial demonstrar experiência na área do projeto e incluir na equipe profissionais de todas as áreas relevantes. Especialistas de universidades e consultores podem ser integrados, mesmo sem vínculo direto com a empresa. Projetos específicos, como software para saúde ou eletrônica na agricultura, exigem especialistas nas respectivas áreas."
-    ]
-},
-{
-    "tag": "dedicacao_projeto",
-    "patterns": [
-      "Qual é a dedicação mínima se o pesquisador for pago pela empresa e não receber bolsa da FAPESP?",
-      "O que acontece se a empresa não puder pagar o salário do pesquisador principal?",
-      "Quantas horas são necessárias se o pesquisador solicitar Bolsa PE?",
-      "A FAPESP pode conceder Bolsa PE se a empresa não puder pagar?",
-      "O pesquisador precisa cumprir 24 horas se for pago pela empresa?",
-      "Em que casos a FAPESP analisa a solicitação de Bolsa PE?"
-    ],
-    "responses": [
-      "Se o pesquisador principal for pago pela empresa e não receber bolsa da FAPESP, deve dedicar 24 horas semanais ao projeto. Caso a empresa não possa pagar, a FAPESP pode analisar a solicitação de uma Bolsa PE, que exige 40 horas semanais de dedicação."
-    ]
-}, 
-{
-    "tag": "elegibilidade_pipe",
-    "patterns": [
-      "O pesquisador responsável precisa morar em São Paulo para o PIPE?",
-      "Precisa ter unidade de pesquisa em São Paulo para o PIPE?",
-      "Pesquisadores de outros estados podem participar do PIPE?",
-      "O projeto precisa ser submetido em nome da empresa se ela estiver fora de SP?"
-    ],
-    "responses": [
-      "O Pesquisador Responsável deve residir em São Paulo para ser elegível ao PIPE. Empresas fora de SP devem submeter o projeto em seu nome, e é obrigatória uma unidade de pesquisa em SP. Pesquisadores de outros estados que instalarem empresas em SP e se tornarem residentes também são elegíveis."
-    ]
-},
-{
-    "tag": "dedicacao_coordenador_pipe",
-    "patterns": [
-      "Qual é a dedicação mínima exigida do coordenador no PIPE?",
-      "Professores em RDIDP e RTC podem coordenar um projeto PIPE?",
-      "Professores em RTP podem coordenar um projeto PIPE?",
-      "O coordenador do PIPE pode pedir uma bolsa PE?",
-      "Por que professores em RDIDP e RTC não podem submeter projetos PIPE?",
-      "Qual é a condição para professores coordenarem um projeto PIPE?"
-    ],
-    "responses": [
-      "O PIPE exige 24 horas semanais de dedicação do coordenador ao projeto na empresa. Professores que não podem cumprir essa carga horária, como docentes em RDIDP e RTC, não podem submeter projetos. Docentes em RTP e outros que atendam à dedicação mínima podem coordenar, mas não podem solicitar bolsa PE."    
-    ]
-},
-{
-    "tag": "apoio_pesquisa",
-    "patterns": [
-      "Precisa ter projeto de pesquisa em uma universidade para receber apoio do PIPE?",
-      "O PIPE apoia pesquisa na empresa ou na universidade?"
-    ],
-    "responses": [
-      "Não há absolutamente nenhuma exigência de relação com qualquer instituição acadêmica. Embora relações entre a empresa e universidades sejam salutares, o PIPE é um programa para apoiar a pesquisa na empresa, não na universidade."
-    ]
-},
-{
-    "tag": "desenvolvimento_pesquisa",
-    "patterns": [
-      "Posso desenvolver a pesquisa na universidade",
-      "O PIPE apoia pesquisa na empresa ou na universidade?"
-    ],
-    "responses": [
-      "Não. A pesquisa deve ser desenvolvida na empresa. Eventualmente, algumas atividades específicas da pesquisa podem ser sub-contratadas de laboratórios de universidades ou de consultores acadêmicos desde que muito bem justificadas e não se constituam na parte central da pesquisa."
-    ]
-},
-{
-    "tag": "quantidade_bolsa_pipe",
-    "patterns": [
-      "Quantas bolsas posso solicitar em pequena empresa?",
-      "Posso solicitar mais de uma bolsa em pequena empresa?"
-    ],
-    "responses": [
-      "Empresas com pouco faturamento podem solicitar uma bolsa PE por projeto, com possibilidade de uma segunda bolsa em casos excepcionais e bem justificados, exigindo dois planos de atividades. Empresas com grande faturamento devem arcar com o pagamento do pesquisador principal."
-    ]
-},
-{
-    "tag": "bolsa_treinamento_tecnico",
-    "patterns": [
-      "O que são as bolsas de Treinamento Técnico?",
-      "Qual é o objetivo das bolsas de Treinamento Técnico?",
-      "O que é preciso para solicitar uma bolsa de Treinamento Técnico?",
-      "Onde encontro informações sobre o plano de trabalho da bolsa de Treinamento Técnico?",
-      "É obrigatório ter um plano de trabalho para a bolsa de Treinamento Técnico?"
-    ],
-    "responses": [
-      "As bolsas de Treinamento Técnico visam treinar e aperfeiçoar alunos de cursos técnicos, médios, superiores e recém-formados para futura integração na equipe de P&D da empresa. É necessário apresentar um plano de trabalho individual, conforme descrito em fapesp.br/tt."
-    ]
-},
-{
-    "tag": "bolsa_treinamento_tecnico_especializado",
-    "patterns": [
-      "O que são as bolsas de Treinamento Técnico?",
-      "Quem pode receber uma bolsa de Treinamento Técnico?",
-      "Qual é o objetivo das bolsas de Treinamento Técnico?",
-      "O que é preciso para solicitar uma bolsa de Treinamento Técnico?",
-      "Onde encontro informações sobre o plano de trabalho da bolsa de Treinamento Técnico?"
-    ],
-    "responses": [
-      "As bolsas de Treinamento Técnico são voltadas a profissionais altamente especializados para atividades técnicas complexas em projetos de pesquisa. É necessário apresentar um plano de trabalho de 2 páginas detalhando as tarefas, conforme descrito em fapesp.br/tt. O tempo de experiência do candidato é contabilizado após a graduação."
-    ]
-},
-{
-    "tag": "beneficios_complementares_pipe",
-    "patterns": [
-      "O que são os Benefícios Complementares (BC) no PIPE?",
-      "Qual é o valor dos Benefícios Complementares (BC) por ano?",
-      "Para que servem os Benefícios Complementares (BC)?",
-      "Os Benefícios Complementares podem ser usados para pesquisa de campo?",
-      "O que é preciso para justificar recursos adicionais no projeto?"
-    ],
-    "responses": [
-      "Propostas aprovadas recebem Benefícios Complementares (BC) de R$ 16.000,00/ano para despesas como reuniões científicas e estágios de pesquisa fora de SP. Recursos adicionais podem ser concedidos para pesquisa de campo, se justificados, mas não cobrem reuniões comerciais, marketing ou pesquisa de mercado."
-    ]
-}
-]
+    },
+    {
+      "tag": "pipe_equipe",
+      "patterns": [
+        "O que é importante no PIPE em relação à experiência?",
+        "Precisa ter só gente da empresa no PIPE?",
+        "A equipe do PIPE precisa cobrir todas as áreas do projeto?"
+      ],
+      "responses": [
+        "No PIPE, é essencial demonstrar experiência na área do projeto e incluir na equipe profissionais de todas as áreas relevantes. Especialistas de universidades e consultores podem ser integrados, mesmo sem vínculo direto com a empresa. Projetos específicos, como software para saúde ou eletrônica na agricultura, exigem especialistas nas respectivas áreas."
+      ]
+    },
+    {
+      "tag": "dedicacao_projeto",
+      "patterns": [
+        "Qual é a dedicação mínima se o pesquisador for pago pela empresa e não receber bolsa da FAPESP?",
+        "O que acontece se a empresa não puder pagar o salário do pesquisador principal?",
+        "Quantas horas são necessárias se o pesquisador solicitar Bolsa PE?",
+        "A FAPESP pode conceder Bolsa PE se a empresa não puder pagar?",
+        "O pesquisador precisa cumprir 24 horas se for pago pela empresa?",
+        "Em que casos a FAPESP analisa a solicitação de Bolsa PE?"
+      ],
+      "responses": [
+        "Se o pesquisador principal for pago pela empresa e não receber bolsa da FAPESP, deve dedicar 24 horas semanais ao projeto. Caso a empresa não possa pagar, a FAPESP pode analisar a solicitação de uma Bolsa PE, que exige 40 horas semanais de dedicação."
+      ]
+    },
+    {
+      "tag": "elegibilidade_pipe",
+      "patterns": [
+        "O pesquisador responsável precisa morar em São Paulo para o PIPE?",
+        "Precisa ter unidade de pesquisa em São Paulo para o PIPE?",
+        "Pesquisadores de outros estados podem participar do PIPE?",
+        "O projeto precisa ser submetido em nome da empresa se ela estiver fora de SP?"
+      ],
+      "responses": [
+        "O Pesquisador Responsável deve residir em São Paulo para ser elegível ao PIPE. Empresas fora de SP devem submeter o projeto em seu nome, e é obrigatória uma unidade de pesquisa em SP. Pesquisadores de outros estados que instalarem empresas em SP e se tornarem residentes também são elegíveis."
+      ]
+    },
+    {
+      "tag": "dedicacao_coordenador_pipe",
+      "patterns": [
+        "Qual é a dedicação mínima exigida do coordenador no PIPE?",
+        "Professores em RDIDP e RTC podem coordenar um projeto PIPE?",
+        "Professores em RTP podem coordenar um projeto PIPE?",
+        "O coordenador do PIPE pode pedir uma bolsa PE?",
+        "Por que professores em RDIDP e RTC não podem submeter projetos PIPE?",
+        "Qual é a condição para professores coordenarem um projeto PIPE?"
+      ],
+      "responses": [
+        "O PIPE exige 24 horas semanais de dedicação do coordenador ao projeto na empresa. Professores que não podem cumprir essa carga horária, como docentes em RDIDP e RTC, não podem submeter projetos. Docentes em RTP e outros que atendam à dedicação mínima podem coordenar, mas não podem solicitar bolsa PE."
+      ]
+    },
+    {
+      "tag": "apoio_pesquisa",
+      "patterns": [
+        "Precisa ter projeto de pesquisa em uma universidade para receber apoio do PIPE?",
+        "O PIPE apoia pesquisa na empresa ou na universidade?"
+      ],
+      "responses": [
+        "Não há absolutamente nenhuma exigência de relação com qualquer instituição acadêmica. Embora relações entre a empresa e universidades sejam salutares, o PIPE é um programa para apoiar a pesquisa na empresa, não na universidade."
+      ]
+    },
+    {
+      "tag": "desenvolvimento_pesquisa",
+      "patterns": [
+        "Posso desenvolver a pesquisa na universidade",
+        "O PIPE apoia pesquisa na empresa ou na universidade?"
+      ],
+      "responses": [
+        "Não. A pesquisa deve ser desenvolvida na empresa. Eventualmente, algumas atividades específicas da pesquisa podem ser sub-contratadas de laboratórios de universidades ou de consultores acadêmicos desde que muito bem justificadas e não se constituam na parte central da pesquisa."
+      ]
+    },
+    {
+      "tag": "quantidade_bolsa_pipe",
+      "patterns": [
+        "Quantas bolsas posso solicitar em pequena empresa?",
+        "Posso solicitar mais de uma bolsa em pequena empresa?"
+      ],
+      "responses": [
+        "Empresas com pouco faturamento podem solicitar uma bolsa PE por projeto, com possibilidade de uma segunda bolsa em casos excepcionais e bem justificados, exigindo dois planos de atividades. Empresas com grande faturamento devem arcar com o pagamento do pesquisador principal."
+      ]
+    },
+    {
+      "tag": "bolsa_treinamento_tecnico",
+      "patterns": [
+        "O que são as bolsas de Treinamento Técnico?",
+        "Qual é o objetivo das bolsas de Treinamento Técnico?",
+        "O que é preciso para solicitar uma bolsa de Treinamento Técnico?",
+        "Onde encontro informações sobre o plano de trabalho da bolsa de Treinamento Técnico?",
+        "É obrigatório ter um plano de trabalho para a bolsa de Treinamento Técnico?"
+      ],
+      "responses": [
+        "As bolsas de Treinamento Técnico visam treinar e aperfeiçoar alunos de cursos técnicos, médios, superiores e recém-formados para futura integração na equipe de P&D da empresa. É necessário apresentar um plano de trabalho individual, conforme descrito em fapesp.br/tt."
+      ]
+    },
+    {
+      "tag": "bolsa_treinamento_tecnico_especializado",
+      "patterns": [
+        "O que são as bolsas de Treinamento Técnico?",
+        "Quem pode receber uma bolsa de Treinamento Técnico?",
+        "Qual é o objetivo das bolsas de Treinamento Técnico?",
+        "O que é preciso para solicitar uma bolsa de Treinamento Técnico?",
+        "Onde encontro informações sobre o plano de trabalho da bolsa de Treinamento Técnico?"
+      ],
+      "responses": [
+        "As bolsas de Treinamento Técnico são voltadas a profissionais altamente especializados para atividades técnicas complexas em projetos de pesquisa. É necessário apresentar um plano de trabalho de 2 páginas detalhando as tarefas, conforme descrito em fapesp.br/tt. O tempo de experiência do candidato é contabilizado após a graduação."
+      ]
+    },
+    {
+      "tag": "beneficios_complementares_pipe",
+      "patterns": [
+        "O que são os Benefícios Complementares (BC) no PIPE?",
+        "Qual é o valor dos Benefícios Complementares (BC) por ano?",
+        "Para que servem os Benefícios Complementares (BC)?",
+        "Os Benefícios Complementares podem ser usados para pesquisa de campo?",
+        "O que é preciso para justificar recursos adicionais no projeto?"
+      ],
+      "responses": [
+        "Propostas aprovadas recebem Benefícios Complementares (BC) de R$ 16.000,00/ano para despesas como reuniões científicas e estágios de pesquisa fora de SP. Recursos adicionais podem ser concedidos para pesquisa de campo, se justificados, mas não cobrem reuniões comerciais, marketing ou pesquisa de mercado."
+      ]
+    },
+    {
+      "tag": "itens_financiaveis",
+      "patterns": [
+        "Que outros itens são financiáveis?",
+        "O que posso financiar?",
+        "O que está incluído no financiamento?",
+        "Quais despesas podem ser cobertas?",
+        "O que não pode ser financiado?",
+        "Quais outros itens podem ser financiados?",
+        "O que mais posso financiar além de bolsas e viagens?",
+        "Quais itens posso incluir no financiamento?",
+        "Posso financiar serviços e materiais?",
+        "O que mais posso financiar no projeto?",
+        "Quais despesas estão cobertas pelo financiamento?",
+        "Há itens que não podem ser financiados?",
+        "Posso financiar materiais que não sejam para produção?",
+        "Quais itens são financiáveis no Brasil e no exterior?",
+        "O que preciso justificar para financiar outros itens?"
+      ],
+      "responses": [
+        "Além das bolsas PE e TT e de recursos para viagens, são também financiáveis Serviços de Terceiros, Material Permanente e Material de Consumo. Estes podem ser adquiridos tanto no Brasil quanto no exterior. Em todos os casos, é fundamental que eles sejam bem justificados como essenciais à pesquisa científica ou tecnológica que será desenvolvida no âmbito do projeto. Não são financiáveis itens de produção ou que não sejam essenciais à pesquisa proposta, mesmo que possam ter utilidade para a empresa."
+      ]
+    },
+    {
+      "tag": "consultores_propriedade_intelectual",
+      "patterns": [
+        "Posso contratar consultores? Como fica a Propriedade Intelectual?",
+        "Posso contratar consultores?",
+        "Como fica a Propriedade Intelectual?",
+        "Como funciona a propriedade intelectual no projeto?",
+        "Como a propriedade intelectual é tratada se eu contratar terceiros?",
+        "O que acontece com a propriedade intelectual quando a consultoria é de uma instituição pública?",
+        "Como a empresa mantém a propriedade intelectual no projeto?",
+        "Preciso de um contrato para contratar consultores?",
+        "A pequena empresa pode explorar a pesquisa de forma exclusiva?",
+        "Dá pra contratar consultores?",
+        "Posso contratar consultores?",
+        "E a propriedade intelectual, como fica?",
+        "Posso trazer alguém de fora pra ajudar no projeto?",
+        "Como funciona a parte da propriedade intelectual se eu contratar um consultor?",
+        "Se eu contratar um terceiro, como a propriedade intelectual é dividida?",
+        "O que eu preciso fazer pra contratar um especialista pro projeto?",
+        "E se o consultor for de uma universidade pública, como é a questão da propriedade intelectual?",
+        "A empresa pode ficar com a propriedade intelectual do projeto?",
+        "Preciso assinar algum contrato se contratar um consultor?",
+        "A empresa vai ter direito exclusivo sobre os resultados da pesquisa?"
+      ],
+      "responses": [
+        "Sim. Desde que bem justificado, é possível contratar Serviços de Terceiros de especialistas, de laboratórios acadêmicos ou de outras empresas. No caso de envolvimento de terceiros, prestadores de serviços ou parceiros no projeto, a relação deverá estar formalizada antes da concessão do projeto, considerando que: \n\n a) Para os casos em que a participação do terceiro for de consultoria ou prestação de serviços, com remuneração com recursos do projeto ou da empresa, deverá ser apresentado contrato de prestação de serviços. Neste caso, a propriedade intelectual deve ser de propriedade exclusiva da pequena empresa.\n b) Caso a consultoria seja realizada por pesquisador de instituição pública, deverão ser apresentados: \n\t b.1) ofício da agência de inovação da respectiva Instituição de vínculo do pesquisador, concordando com a não participação na propriedade intelectual; \n\t b.2) autorização do órgão de pessoal da instituição para a consultoria; e \n\t b.3) contrato entre o consultor e a empresa prevendo que a titularidade pertencerá à empresa. \n\n c) Para os casos em que houver colaboração entre a pequena empresa e o terceiro, poderá haver compartilhamento de propriedade intelectual, devendo ser apresentado convênio, detalhando no plano de trabalho qual a participação do terceiro e da empresa na pesquisa, bem como indicando quais serão os recursos financeiros e econômicos envolvidos para financiar as pesquisas do convênio e a origem de tais recursos. \n d) Em qualquer caso, a pequena empresa deve ter o direito de explorar com exclusividade os resultados da pesquisa. \n A atenção e cuidado profissional com os assuntos de Propriedade Intelectual é essencial para preservar o valor da empresa e de suas inovações e para viabilizar a obtenção de investimentos privados."
+      ]
+    },
+    {
+      "tag": "recursos_pipe_pagamento_despesas",
+      "patterns": [
+        "Posso usar recursos do PIPE para pagamento de despesas relativas à proteção de propriedade intelectual como patenteamento?",
+        "Posso usar os recursos do PIPE para pagar despesas com patenteamento?",
+        "O financiamento cobre despesas de proteção de propriedade intelectual?",
+        "Posso financiar o processo de patenteamento com recursos do PIPE?",
+        "É possível usar o PIPE para pagar custos de propriedade intelectual?",
+        "Posso usar recursos do PIPE para registrar patentes?",
+        "Os custos com patenteamento entram no financiamento do PIPE?",
+        "Os recursos do PIPE podem ser usados para proteger propriedade intelectual?",
+        "Posso usar o PIPE para pagar pela patente de uma invenção?"
+      ],
+      "responses": [
+        "Despesas com propriedade intelectual poderão ser financiadas com recursos da Parcela para Custos de Infraestrutura Direta do Projeto."
+      ]
+    },
+    {
+      "tag": "emprestimo",
+      "patterns": [
+        "O apoio da FAPESP é um empréstimo?",
+        "A FAPESP oferece apoio financeiro como empréstimo?",
+        "O financiamento da FAPESP precisa ser devolvido?",
+        "O apoio da FAPESP é em forma de empréstimo ou subsídio?",
+        "Posso considerar o apoio da FAPESP como um empréstimo?",
+        "A FAPESP concede empréstimos ou é um outro tipo de apoio?",
+        "O financiamento da FAPESP é reembolsável?",
+        "O apoio da FAPESP tem que ser devolvido?",
+        "A FAPESP faz empréstimos ou outro tipo de apoio?",
+        "O apoio da FAPESP é um empréstimo ou um subsídio?"
+      ],
+      "responses": [
+        "O apoio da FAPESP não é realizado na forma de empréstimo."
+      ]
+    },
+    {
+      "tag": "participacao_fapesp_socia",
+      "patterns": [
+        "A FAPESP fica com uma parcela da empresa? Ela torna-se sócia da empresa?",
+        "A FAPESP fica com parte da empresa?",
+        "A FAPESP se torna sócia da empresa?",
+        "A FAPESP recebe cotas da empresa?",
+        "A FAPESP toma participação na empresa?",
+        "A FAPESP vai se tornar sócia da empresa?",
+        "A FAPESP recebe uma parte da empresa?",
+        "A FAPESP exige participação acionária na empresa?",
+        "A FAPESP fica com cotas da empresa?",
+        "A FAPESP entra como sócia da empresa?",
+        "A FAPESP toma algum percentual da empresa?"
+      ],
+      "responses": [
+        "Não, a FAPESP não recebe cotas da empresa."
+      ]
+    },
+    {
+      "tag": "titularidade_propriedade_intelectual",
+      "patterns": [
+        "A FAPESP participa da titularidade da propriedade intelectual resultante do projeto?",
+        "A FAPESP é titular da propriedade intelectual do projeto?",
+        "A FAPESP fica com a propriedade intelectual gerada no projeto?",
+        "A FAPESP tem direito sobre a propriedade intelectual do projeto?",
+        "A FAPESP é dona da propriedade intelectual criada no projeto?",
+        "A empresa sede do projeto fica com a titularidade da propriedade intelectual?",
+        "A titularidade da propriedade intelectual é da FAPESP?",
+        "Quem é o proprietário da propriedade intelectual gerada no projeto?",
+        "A FAPESP participa da propriedade intelectual do projeto?",
+        "Quem fica com a titularidade da propriedade intelectual do projeto?",
+        "A FAPESP recebe direitos sobre a propriedade intelectual do projeto?"
+      ],
+      "responses": [
+        "A titularidade da propriedade intelectual resultante do projeto pertence à empresa sede do projeto."
+      ]
+    },
+    {
+      "tag": "avaliacao_projetos",
+      "patterns": [
+        "Quem avalia os projetos?",
+        "Quem faz a avaliação dos projetos?",
+        "Quem é responsável por avaliar os projetos?",
+        "Quem seleciona os avaliadores dos projetos?",
+        "Quantos avaliadores analisam um projeto?",
+        "Quantos assessores são necessários para avaliar um projeto?",
+        "Quem escolhe os especialistas para avaliar os projetos?",
+        "A identidade dos avaliadores é revelada?",
+        "Os pareceres dos assessores são confidenciais?",
+        "Quem toma a decisão final sobre o projeto?"
+      ],
+      "responses": [
+        "A FAPESP seleciona especialistas das áreas de conhecimento envolvidas no projeto para avaliá-lo. Projetos PIPE Fase 1 são avaliados por pelo menos dois assessores e projetos Fase 2 são avaliados por pelo menos 3 assessores. A identidade dos assessores é mantida em confidencialidade pela FAPESP, como faz a maior parte das agências de financiamento à pesquisa no mundo. Os assessores emitem pareceres e a FAPESP os reúne em comitês de avaliação que debatem cada caso e elaboram um novo parecer sobre cada projeto. Com base em todos esses pareceres e em uma entrevista com os proponentes, a Coordenação de Área e a Coordenação Adjunta de Pesquisa para Inovação fazem uma recomendação final à Diretoria Científica que emite a decisão final."
+      ]
+    },
+    {
+      "tag": "projeto_reprovado",
+      "patterns": [
+        "E se meu projeto é denegado?",
+        "E se meu projeto for negado?",
+        "O que acontece se meu projeto for denegado?",
+        "O que faço se meu projeto for rejeitado?",
+        "O que acontece se meu projeto não for aprovado?",
+        "Se meu projeto for negado, posso tentar novamente?",
+        "Vou receber algum feedback se meu projeto for negado?",
+        "Posso melhorar meu projeto e enviar novamente?",
+        "O que faço com os pareceres se meu projeto for negado?",
+        "É possível resubmeter o projeto após ser denegado?",
+        "Como posso aprimorar meu projeto após a rejeição?"
+      ],
+      "responses": [
+        "Nesse caso, você receberá pareceres explicando os motivos da denegação e apontando eventuais fragilidades da proposta apresentada. Caso haja interesse, você pode aprimorar o projeto baseado nos comentários dos assessores e resubmetê-lo em um pedido de “reconsideração”."
+      ]
+    },
+    {
+      "tag": "avaliacao_projeto_concorrente",
+      "patterns": [
+        "Um concorrente pode avaliar o meu projeto?",
+        "É possível que um concorrente seja avaliador do meu projeto?",
+        "Concorrentes podem participar da avaliação do projeto?",
+        "Como a FAPESP evita conflitos de interesse na avaliação?",
+        "Como a FAPESP garante que não haja conflito de interesse na avaliação?",
+        "Um avaliador pode ter algum interesse no meu projeto?",
+        "Os avaliadores são impedidos de avaliar projetos com conflito de interesse?",
+        "Como é garantido o sigilo sobre o projeto durante a avaliação?",
+        "Os avaliadores assinam algo para garantir que não há conflito de interesse?",
+        "Como a FAPESP assegura que os avaliadores não sejam concorrentes?"
+      ],
+      "responses": [
+        "A FAPESP toma um grande cuidado para evitar que assessores que tenham potencial conflito de interesse com a proposta em análise participem da avaliação. Além disso, para realizar a avaliação, o parecerista assina documento atestando que não tem conflitos com o proponente e se compromete a manter sigilo sobre o tema avaliado."
+      ]
+    },
+    {
+      "tag": "mais_informacoes",
+      "patterns": [
+        "Como posso obter mais informações sobre o PIPE?",
+        "Onde encontro mais detalhes sobre o programa PIPE?",
+        "Como saber mais sobre o PIPE?",
+        "Onde posso ler sobre as normas do PIPE?",
+        "Como posso acessar as chamadas vigentes do PIPE?",
+        "Tem algum evento para tirar dúvidas sobre o PIPE?",
+        "Onde encontro as datas dos eventos do PIPE?",
+        "Posso participar de eventos para aprender sobre o PIPE?",
+        "Onde posso ver o texto completo das normas do PIPE?",
+        "Como posso saber mais sobre o apoio à pesquisa para inovação na pequena empresa?"
+      ],
+      "responses": [
+        "O site http://fapesp.br/pipe apresenta em detalhes o programa, incluindo o texto completo das normas e as chamadas vigentes. Adicionalmente, de forma periódica, acontece o evento “Diálogo sobre Apoio à Pesquisa para Inovação na Pequena Empresa” no qual o programa PIPE é apresentado e os membros da coordenação tiram dúvidas dos participantes (veja as próximas datas no site do PIPE)."
+      ]
+    },
+    {
+      "tag": "como_submeter_projeto",
+      "patterns": [
+        "Como posso submeter um projeto PIPE?",
+        "O que preciso para submeter um projeto PIPE?",
+        "Quais são os passos para enviar um projeto PIPE?",
+        "O que é necessário para submeter um projeto no PIPE?",
+        "Quais os requisitos para submeter um projeto PIPE?",
+        "Como faço para enviar minha proposta para o PIPE?",
+        "Quais as fases do PIPE para submeter um projeto?",
+        "Como escolher a fase certa para submeter um projeto PIPE?",
+        "O que preciso para submeter um projeto no PIPE da FAPESP?",
+        "Como faço a inscrição de um projeto PIPE?"
+      ],
+      "responses": [
+        "1. Verifique a aderência ao programa: O projeto deve ter inovação tecnológica relevante, potencial comercial e equipe qualificada. A pesquisa deve ser realizada no Estado de São Paulo. \n 2. Escolha a fase certa: O PIPE possui 3 fases: Fase I (viabilidade técnica, até R$ 200 mil, 9 meses), Fase II (desenvolvimento e protótipo, até R$ 1 milhão, 24 meses) e Fase III (industrialização e comercialização, editais específicos).\n 3. Escolha o pesquisador responsável: O pesquisador deve ter experiência técnica, preferencialmente mestrado ou doutorado. Sua qualificação é fundamental para a aprovação do projeto. \n 4. Estruture o projeto: O projeto deve detalhar o problema a ser resolvido, a metodologia, e os impactos e aplicações comerciais. \n 5. Elabore um plano de negócios: Para Fases II e III, o plano deve incluir impacto comercial, mercado-alvo, concorrência, projeções financeiras e viabilidade do produto. \n 6. Monte um orçamento e cronograma: Justifique cada despesa detalhadamente. O orçamento deve seguir as regras da FAPESP. O cronograma deve demonstrar os entregáveis do projeto. \n 7. Revise os documentos auxiliares: Inclua formulários complementares como resumo do projeto em inglês, justificativa do orçamento e contrato social da empresa (se necessário)."
+      ]
+    }
+  ]
 }
