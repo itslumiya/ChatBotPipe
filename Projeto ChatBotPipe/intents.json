@@ -43,7 +43,10 @@
       "tag": "programa_pipe",
       "patterns": [
         "O que é programa PIPE?",
-        "Programa PIPE"
+        "Programa PIPE",
+        "Do que se trata o programa PIPE?",
+        "Quero saber sobre o programa pipe",
+        "Definição PIPE"
       ],
       "responses": [
         "O Programa Pesquisa Inovativa em Pequenas Empresas da FAPESP destina-se a apoiar a execução de pesquisa científica e tecnológica em pequenas empresas no Estado de São Paulo. Seus objetivos são apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica e o desenvolvimento empresarial, aumentar a competitividade das pequenas empresas, possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica e contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas empresas e para o emprego de pesquisadores no mercado de trabalho empresarial criando uma cultura permanente de inovação."
@@ -54,7 +57,9 @@
       "patterns": [
         "Quais são as etapas do PIPE?",
         "Programa PIPE Etapas",
-        "Fases programa pipe"
+        "Fases programa pipe",
+        "Quais são as fases do programa pipe?",
+        "Por quais etapas o programa PIPE passa?"
       ],
       "responses": [
         "a) Fase 1: é destinada à verificação da viabilidade técnico-científica da proposta, (duração de até 9 meses e orçamento de até R$ 300.000, mais Reserva Técnica e Benefícios Complementares); \n b) Fase 2: destina-se à execução da pesquisa propriamente dita (duração de até 24 meses e orçamento de até R$ 1.500.000, mais Reserva Técnica e Benefícios Complementares); \n c) PIPE Invest: Aceleração da chegada ao mercado de Projetos da Fase 2, quando houver terceira parte interessada (duração de até 24 meses e orçamento de até R$ 1.500.000); e \n d) Fase 3: desenvolvimento comercial e industrial dos produtos, processos, sistemas e/ou serviços inovadores obtidos a partir de pesquisas anteriores realizadas pela pequena empresa sem o apoio da FAPESP ou a partir de pesquisa apoiada no âmbito do PIPE."
@@ -76,7 +81,8 @@
       "tag": "projeto_pesquisa_na_empresa",
       "patterns": [
         "O projeto de pesqusia tem que ser feito na empresa?",
-        "Critérios de pesquisa em empresas"
+        "Critérios de pesquisa em empresas",
+        "Preciso estar na empresa para fazer a pesquisa?"
       ],
       "responses": [
         "Sim, obrigatoriamente. O PIPE destina-se a apoiar a execução de pesquisa EM pequenas empresas sediadas no Estado de São Paulo, conforme está explicitado nas normas do programa: http://fapesp.br/pipe/normas/#1."
@@ -87,7 +93,8 @@
       "patterns": [
         "Minha empresa precisa estar aberta?",
         "Preciso já ter a empresa para solicitar o PIPE?",
-        "Minha empresa precisa estar aberta para solicitar o PIPE?"
+        "Minha empresa precisa estar aberta para solicitar o PIPE?",
+        "Preciso abrir a empresa para solicitar o PIPE?"
       ],
       "responses": [
         "Não. A FAPESP analisa propostas de empresas ainda não constituídas. Empresas startup ainda não constituídas legalmente são incentivadas a submeter. Nos casos em que a proposta for recomendada, o proponente deverá então abrir formalmente a empresa antes da concessão da proposta."
@@ -98,7 +105,8 @@
       "patterns": [
         "O que é uma empresa para o PIPE?",
         "O que é considerado uma empresa para o PIPE?",
-        "Critério de empresa no PIP"
+        "Critério de empresa no PIPE",
+        "Como definir uma empresa para o PIPE"
       ],
       "responses": [
         "É uma empresa com até 250 funcionários, independentemente do seu faturamento. A FAPESP considera empresa as sociedades empresárias previstas no Código Civil, o empresário individual, o microempreendedor individual (MEI), a sociedade limitada unipessoal e as sociedades simples. Associações, fundações, institutos e cooperativas não podem sediar um PIPE da FAPESP."
@@ -108,7 +116,8 @@
       "tag": "quando_submeter_proposta",
       "patterns": [
         "Quando posso submeter uma proposta PIPE?",
-        "Qual o prazo para fazer prosposta ao PIPE"
+        "Qual o prazo para fazer prosposta ao PIPE",
+        "Momento certo para definir proposta"
       ],
       "responses": [
         "As propostas para o PIPE Fase 1, Fase 2 e PIPE Invest são recebidas em fluxo contínuo durante todo o ano."
@@ -118,7 +127,9 @@
       "tag": "areas_prioritarias",
       "patterns": [
         "Existem áreas prioritarias no PIPE?",
-        "Quem tem prioridade no PIPE"
+        "Alguem tem prioridade no PIPE?",
+        "algumas aréas são prioridades no PIPE?",
+        "Existe fila de prioridade no PIPE?"
       ],
       "responses": [
         "Não. O PIPE visa a apoiar pesquisas promissoras, com potencial de inovação, em qualquer área do conhecimento."
@@ -128,7 +139,10 @@
       "tag": "produto_desenvolvido",
       "patterns": [
         "Produtos entram no PIPE?",
-        "Posso entrar com um produto no PIPE?"
+        "Posso entrar com um produto no PIPE?",
+        "Posso cadastrar um produto que ja existe no PIPE?",
+        "Posso registar um produto feito no PIPE?",
+        "Ja tenho um produto, posso cadastrar no PIPE?"
       ],
       "responses": [
         "Não. O objetivo do PIPE é apoiar projetos de pesquisa para inovação, oferecendo recursos para custear a pesquisa visando ao desenvolvimento de um produto, processo ou serviço inovador. Se o produto já foi desenvolvido, as Fases 1 e 2 do PIPE não são necessárias para financiar pesquisa para se chegar a ele. Nesse caso, a proposta pode ser elegível para outros programas de subvenção econômica, no PIPE Fase 3, financiados em parceria com terceiros."
@@ -138,7 +152,8 @@
       "tag": "titulo_doutor",
       "patterns": [
         "É preciso ter título de doutor para solicitar o PIPE?",
-        "É necessário titulação academica?"
+        "É necessário titulação academica?",
+        "Preciso ter algum titulo para entrar no PIPE?"
       ],
       "responses": [
         "Não. No programa PIPE é fundamental a experiência demonstrada pelo proponente no tema do projeto e a competência demonstrada para a liderança da pesquisa proposta. Embora a titulação acadêmica seja bem-vinda, ela não é de forma nenhuma exigida dos pesquisadores do PIPE."
